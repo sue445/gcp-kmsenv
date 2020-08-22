@@ -62,7 +62,7 @@ func (k *KmsEnv) GetFromEnvOrKms(key string, required bool) (string, error) {
 	return "", nil
 }
 
-// GetFromEnvOrKms returns value from KMS
+// GetFromKms returns value from KMS
 func (k *KmsEnv) GetFromKms(kmsKey string) (string, error) {
 	value, err := k.decrypt(os.Getenv(kmsKey))
 
