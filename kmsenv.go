@@ -12,7 +12,7 @@ import (
 	"strings"
 )
 
-// c.f. https://godoc.org/google.golang.org/api/cloudkms/v1#pkg-constants
+// c.f. https://pkg.go.dev/google.golang.org/api/cloudkms/v1?tab=doc#pkg-constants
 const (
 	// View and manage your keys and secrets stored in Cloud Key Management
 	// Service
