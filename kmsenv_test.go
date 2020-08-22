@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/sue445/kmsenv/mock_kmsenv"
+	"github.com/sue445/gcp-kmsenv/mock_kmsenv"
 	"google.golang.org/genproto/googleapis/cloud/kms/v1"
 	"os"
 	"testing"
