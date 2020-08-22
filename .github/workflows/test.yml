@@ -63,6 +63,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: coverage.lcov
+        continue-on-error: true
 
       - name: Slack Notification (not success)
         uses: homoluctus/slatify@master
