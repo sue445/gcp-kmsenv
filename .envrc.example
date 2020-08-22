@@ -1,0 +1,2 @@
+export GO111MODULE=on
+export KMS_KEYRING_KEY_NAME=projects/PROJECT_NAME/locations/global/keyRings/KEY_RING_NAME/cryptoKeys/KEY_NAME
