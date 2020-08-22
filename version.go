@@ -2,5 +2,5 @@ package kmsenv
 
 const (
 	// Version represents kmsenv version
-	Version = "v0.0.1"
+	Version = "v0.1.0"
 )
