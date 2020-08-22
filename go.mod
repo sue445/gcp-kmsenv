@@ -1,4 +1,4 @@
-module github.com/sue445/kmsenv
+module github.com/sue445/gcp-kmsenv
 
 go 1.15
 
