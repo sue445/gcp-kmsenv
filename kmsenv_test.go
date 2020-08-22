@@ -95,3 +95,21 @@ func TestKmsEnv_GetFromEnvOrKms(t *testing.T) {
 		})
 	}
 }
+
+func TestKmsEnv_GetFromEnvOrKms_IntegrationTest(t *testing.T) {
+	if os.Getenv("KMS_KEYRING_KEY_NAME") == "" {
+		return
+	}
+
+	want := os.Getenv("INTEGRATION_TEST_WANT")
+
+	k, err := NewKmsEnv(os.Getenv("KMS_KEYRING_KEY_NAME"))
+
+	if assert.NoError(t, err) {
+		got, err := k.GetFromEnvOrKms("INTEGRATION_TEST_KEY", true)
+
+		if assert.NoError(t, err) {
+			assert.Equal(t, want, got)
+		}
+	}
+}
