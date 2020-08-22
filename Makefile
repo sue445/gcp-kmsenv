@@ -1,4 +1,4 @@
-VERSION  := $(shell cat version.go | grep 'Version = ' | sed -E 's/^.*Version = "(.+)".*/\1/g')
+VERSION := $(shell cat VERSION)
 
 .DEFAULT_GOAL := test
 
