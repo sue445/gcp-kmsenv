@@ -9,6 +9,7 @@ You can access KMS with a syntax similar to `os.Getenv`
 [![Go Report Card](https://goreportcard.com/badge/github.com/sue445/gcp-kmsenv)](https://goreportcard.com/report/github.com/sue445/gcp-kmsenv)
 
 ## Requirements
+### Base64 encoded ciphertext
 Encrypt credential with `gcloud kms encrypt` and convert with base64.
 
 e.g. 
@@ -18,6 +19,9 @@ echo -n SECRET_ACCESS_TOKEN | gcloud --project PROJECT_NAME kms encrypt --plaint
 ```
 
 After that, register with the environment variable starting with `KMS_`. (e.g. `KMS_ACCESS_TOKEN` )
+
+### Service account
+Add IAM role `roles/cloudkms.cryptoKeyDecrypter` to service account if necessary.
 
 ## Example
 ```bash
@@ -54,6 +58,16 @@ func main() {
     value, err := k.GetFromEnvOrKms("INVALID_KEY", true)
     // => error
 }
+```
+
+## ProTip
+### Securely embed secret values in `app.yaml` for Google App Engine
+```yaml
+# app.yaml
+runtime: go113
+
+env_variables:
+  KMS_ACCESS_TOKEN: "THIS_IS_BASE64_ENCODED_CIPHER_TEXT"
 ```
 
 ## Development
