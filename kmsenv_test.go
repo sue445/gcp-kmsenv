@@ -36,6 +36,11 @@ func TestKmsEnv_GetFromEnvOrKms(t *testing.T) {
 	os.Setenv("KEY1", "env_value")
 	os.Setenv("KMS_KEY2", "ZHVtbXkK") // base64 encoded "dummy" value
 
+	t.Cleanup(func() {
+		os.Unsetenv("KEY1")
+		os.Unsetenv("KMS_KEY2")
+	})
+
 	type args struct {
 		key      string
 		required bool
