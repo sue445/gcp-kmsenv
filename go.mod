@@ -8,8 +8,8 @@ require (
 	github.com/golang/mock v1.5.0
 	github.com/googleapis/gax-go/v2 v2.0.5
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
-	google.golang.org/api v0.43.0
+	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
+	google.golang.org/api v0.44.0
 	google.golang.org/genproto v0.0.0-20210402141018-6c239bbf2bb1
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 )
