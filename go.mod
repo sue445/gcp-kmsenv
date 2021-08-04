@@ -3,7 +3,7 @@ module github.com/sue445/gcp-kmsenv
 go 1.15
 
 require (
-	cloud.google.com/go v0.89.0
+	cloud.google.com/go v0.90.0
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.0.5
