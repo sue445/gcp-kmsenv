@@ -6,10 +6,10 @@ require (
 	cloud.google.com/go/kms v0.1.0
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/mock v1.6.0
-	github.com/googleapis/gax-go/v2 v2.0.5
+	github.com/googleapis/gax-go/v2 v2.1.0
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/oauth2 v0.0.0-20210805134026-6f1e6394065a
 	google.golang.org/api v0.54.0
-	google.golang.org/genproto v0.0.0-20210813162853-db860fec028c
+	google.golang.org/genproto v0.0.0-20210821163610-241b8fcbd6c8
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 )
