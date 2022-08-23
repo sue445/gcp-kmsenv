@@ -7,7 +7,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.5.1
 	github.com/stretchr/testify v1.8.0
-	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2
-	google.golang.org/api v0.93.0
+	golang.org/x/oauth2 v0.0.0-20220822191816-0ebed06d0094
+	google.golang.org/api v0.94.0
 	google.golang.org/genproto v0.0.0-20220722212130-b98a9ff5e252
 )
