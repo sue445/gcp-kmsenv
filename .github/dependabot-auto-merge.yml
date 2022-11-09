@@ -10,3 +10,6 @@
 - match:
     dependency_name: "github.com/golang/mock"
     update_type: "all"
+- match:
+    dependency_name: "google.golang.org/api"
+    update_type: "semver:minor"
