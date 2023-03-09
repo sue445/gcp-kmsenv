@@ -8,8 +8,8 @@ require (
 	github.com/googleapis/gax-go/v2 v2.7.0
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/oauth2 v0.6.0
-	google.golang.org/api v0.111.0
-	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923
+	google.golang.org/api v0.112.0
+	google.golang.org/genproto v0.0.0-20230303212802-e74f57abe488
 )
 
 require (
