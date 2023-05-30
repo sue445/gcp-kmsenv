@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/kms v1.10.2
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.10.0
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/oauth2 v0.8.0
 	google.golang.org/api v0.125.0
 	google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc
