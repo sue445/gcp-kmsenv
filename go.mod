@@ -5,7 +5,7 @@ go 1.17
 require (
 	cloud.google.com/go/kms v1.11.0
 	github.com/golang/mock v1.6.0
-	github.com/googleapis/gax-go/v2 v2.10.0
+	github.com/googleapis/gax-go/v2 v2.11.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/oauth2 v0.8.0
 	google.golang.org/api v0.127.0
