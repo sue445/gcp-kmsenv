@@ -5,6 +5,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
+	"github.com/cockroachdb/errors"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
@@ -32,12 +33,12 @@ func NewKmsEnv(keyringKeyName string) (*KmsEnv, error) {
 
 	creds, err := google.FindDefaultCredentials(ctx, cloudkmsScope)
 	if err != nil {
-		return nil, err
+		return nil, errors.WithStack(err)
 	}
 
 	client, err := cloudkms.NewKeyManagementClient(ctx, option.WithCredentials(creds))
 	if err != nil {
-		return nil, err
+		return nil, errors.WithStack(err)
 	}
 
 	return &KmsEnv{KeyringKeyName: keyringKeyName, client: client, ctx: &ctx}, nil
@@ -67,7 +68,7 @@ func (k *KmsEnv) GetFromKms(kmsKey string) (string, error) {
 	value, err := k.decrypt(os.Getenv(kmsKey))
 
 	if err != nil {
-		return "", err
+		return "", errors.WithStack(err)
 	}
 
 	return strings.TrimSpace(value), nil
@@ -76,7 +77,7 @@ func (k *KmsEnv) GetFromKms(kmsKey string) (string, error) {
 func (k *KmsEnv) decrypt(base64Value string) (string, error) {
 	ciphertext, err := base64.StdEncoding.DecodeString(base64Value)
 	if err != nil {
-		return "", err
+		return "", errors.WithStack(err)
 	}
 
 	if k.KeyringKeyName == "" {
@@ -91,7 +92,7 @@ func (k *KmsEnv) decrypt(base64Value string) (string, error) {
 	// Call the API.
 	resp, err := k.client.Decrypt(*k.ctx, req)
 	if err != nil {
-		return "", err
+		return "", errors.WithStack(err)
 	}
 	return string(resp.Plaintext), nil
 }
