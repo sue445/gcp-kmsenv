@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/kms v1.12.1
 	github.com/cockroachdb/errors v1.10.0
 	github.com/golang/mock v1.6.0
-	github.com/googleapis/gax-go/v2 v2.11.0
+	github.com/googleapis/gax-go/v2 v2.12.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/oauth2 v0.9.0
 	google.golang.org/api v0.130.0
