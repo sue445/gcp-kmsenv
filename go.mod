@@ -3,7 +3,7 @@ module github.com/sue445/gcp-kmsenv
 go 1.17
 
 require (
-	cloud.google.com/go/kms v1.15.1
+	cloud.google.com/go/kms v1.15.2
 	github.com/cockroachdb/errors v1.11.1
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.12.0
