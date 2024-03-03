@@ -7,7 +7,7 @@ require (
 	github.com/cockroachdb/errors v1.11.1
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.12.2
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.17.0
 	google.golang.org/api v0.167.0
 	google.golang.org/genproto v0.0.0-20240205150955-31a09d347014
