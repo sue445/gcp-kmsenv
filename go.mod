@@ -9,7 +9,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.12.2
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.18.0
-	google.golang.org/api v0.168.0
+	google.golang.org/api v0.169.0
 	google.golang.org/genproto v0.0.0-20240205150955-31a09d347014
 )
 
