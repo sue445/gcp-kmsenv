@@ -9,13 +9,13 @@ require (
 	github.com/googleapis/gax-go/v2 v2.12.5
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.21.0
-	google.golang.org/api v0.185.0
+	google.golang.org/api v0.186.0
 	google.golang.org/genproto v0.0.0-20240617180043-68d350f18fd4
 )
 
 require (
 	cloud.google.com/go v0.115.0 // indirect
-	cloud.google.com/go/auth v0.5.1 // indirect
+	cloud.google.com/go/auth v0.6.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.2 // indirect
 	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v1.1.8 // indirect
