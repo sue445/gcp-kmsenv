@@ -6,10 +6,11 @@ package mock_kmsenv
 
 import (
 	context "context"
+	reflect "reflect"
+
+	kms "cloud.google.com/go/kms/apiv1/kmspb"
 	gomock "github.com/golang/mock/gomock"
 	gax "github.com/googleapis/gax-go/v2"
-	kms "google.golang.org/genproto/googleapis/cloud/kms/v1"
-	reflect "reflect"
 )
 
 // MockKmsClient is a mock of KmsClient interface

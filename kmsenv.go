@@ -2,13 +2,13 @@ package kmsenv
 
 import (
 	cloudkms "cloud.google.com/go/kms/apiv1"
+	"cloud.google.com/go/kms/apiv1/kmspb"
 	"context"
 	"encoding/base64"
 	"fmt"
 	"github.com/cockroachdb/errors"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
-	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 	"os"
 	"strings"
 )
