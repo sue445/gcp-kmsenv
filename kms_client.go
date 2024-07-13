@@ -2,8 +2,9 @@ package kmsenv
 
 import (
 	"context"
+
+	"cloud.google.com/go/kms/apiv1/kmspb"
 	"github.com/googleapis/gax-go/v2"
-	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 )
 
 // KmsClient represents KeyManagementClient interface for stub

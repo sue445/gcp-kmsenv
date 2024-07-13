@@ -2,12 +2,13 @@ package kmsenv
 
 import (
 	"context"
+	"os"
+	"testing"
+
+	kms "cloud.google.com/go/kms/apiv1/kmspb"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"github.com/sue445/gcp-kmsenv/mock_kmsenv"
-	"google.golang.org/genproto/googleapis/cloud/kms/v1"
-	"os"
-	"testing"
 )
 
 func TestKmsEnv_GetFromEnvOrKms(t *testing.T) {
