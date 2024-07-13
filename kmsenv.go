@@ -1,17 +1,16 @@
 package kmsenv
 
 import (
+	cloudkms "cloud.google.com/go/kms/apiv1"
+	"cloud.google.com/go/kms/apiv1/kmspb"
 	"context"
 	"encoding/base64"
 	"fmt"
-	"os"
-	"strings"
-
-	cloudkms "cloud.google.com/go/kms/apiv1"
-	"cloud.google.com/go/kms/apiv1/kmspb"
 	"github.com/cockroachdb/errors"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
+	"os"
+	"strings"
 )
 
 // c.f. https://pkg.go.dev/google.golang.org/api/cloudkms/v1?tab=doc#pkg-constants
