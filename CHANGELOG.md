@@ -1,8 +1,15 @@
 ## Unreleased
 [full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.1...master)
 
-## v0.2.0
-[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.0...v0.2.1)
+## [v0.2.2](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.2)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.1...v0.2.2)
+
+* Add golangci-lint
+  * https://github.com/sue445/gcp-kmsenv/pull/321
+* Upgrade dependencies
+
+## v0.2.1
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.1...v0.2.2)
 
 * requires Go 1.19+
   * https://github.com/sue445/gcp-kmsenv/pull/242
