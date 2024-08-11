@@ -3,7 +3,7 @@ module github.com/sue445/gcp-kmsenv
 go 1.19
 
 require (
-	cloud.google.com/go/kms v1.18.4
+	cloud.google.com/go/kms v1.18.5
 	github.com/cockroachdb/errors v1.11.3
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.13.0
@@ -14,7 +14,7 @@ require (
 
 require (
 	cloud.google.com/go v0.115.0 // indirect
-	cloud.google.com/go/auth v0.7.3 // indirect
+	cloud.google.com/go/auth v0.8.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.3 // indirect
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
 	cloud.google.com/go/iam v1.1.12 // indirect
