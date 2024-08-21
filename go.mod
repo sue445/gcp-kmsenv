@@ -2,6 +2,8 @@ module github.com/sue445/gcp-kmsenv
 
 go 1.21
 
+toolchain go1.21.0
+
 require (
 	cloud.google.com/go/kms v1.19.0
 	github.com/cockroachdb/errors v1.11.3
