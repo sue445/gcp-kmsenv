@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.22.5
 
 require (
-	cloud.google.com/go/kms v1.20.4
+	cloud.google.com/go/kms v1.20.5
 	github.com/cockroachdb/errors v1.11.3
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.14.1
