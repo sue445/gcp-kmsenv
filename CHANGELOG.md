@@ -1,5 +1,12 @@
 ## Unreleased
-[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.3...master)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.4...master)
+
+## [v0.2.4](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.4)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.3...v0.2.4)
+
+* Requires Go 1.22+
+  * https://github.com/sue445/gcp-kmsenv/pull/370
+* Upgrade dependencies
 
 ## [v0.2.3](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.3)
 [full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.2...v0.2.3)
