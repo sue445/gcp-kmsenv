@@ -4,7 +4,7 @@ Detect variable from environment variable or [GCP Cloud KMS](https://cloud.googl
 You can access KMS with a syntax similar to `os.Getenv`
 
 [![Latest Version](https://img.shields.io/github/v/tag/sue445/gcp-kmsenv)](https://github.com/sue445/gcp-kmsenv/tags)
-[![Build Status](https://github.com/sue445/gcp-kmsenv/workflows/test/badge.svg?branch=master)](https://github.com/sue445/gcp-kmsenv/actions?query=workflow%3Atest)
+[![test](https://github.com/sue445/gcp-kmsenv/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/gcp-kmsenv/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/sue445/gcp-kmsenv/badge.svg)](https://coveralls.io/github/sue445/gcp-kmsenv)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1493a487051cc9c65e2e/maintainability)](https://codeclimate.com/github/sue445/gcp-kmsenv/maintainability)
 [![GoDoc](https://godoc.org/github.com/sue445/gcp-kmsenv?status.svg)](https://godoc.org/github.com/sue445/gcp-kmsenv)
