@@ -1,7 +1,8 @@
 module github.com/sue445/gcp-kmsenv
 
-go 1.22.7
-toolchain go1.23.4
+go 1.23.0
+
+toolchain go1.24.0
 
 require (
 	cloud.google.com/go/kms v1.20.5
