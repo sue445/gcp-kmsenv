@@ -14,7 +14,7 @@ env:
   TEST_ARGS: -coverprofile coverage.out -covermode atomic
 
   # c.f. https://github.com/golangci/golangci-lint/blob/main/CHANGELOG.md
-  GOLANGCI_LINT_VERSION: v2.0
+  GOLANGCI_LINT_VERSION: v2.1
 
   WORKLOAD_IDENTITY_PROVIDER: "projects/515669014143/locations/global/workloadIdentityPools/gh-gcp-kmsenv/providers/github-actions"
   SERVICE_ACCOUNT_EMAIL: "gcp-kmsenv@kmsenv.iam.gserviceaccount.com"
@@ -101,7 +101,7 @@ jobs:
         id: go
 
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v7
+        uses: golangci/golangci-lint-action@v8
         with:
           version: ${{ env.GOLANGCI_LINT_VERSION }}
 
