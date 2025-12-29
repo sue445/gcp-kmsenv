@@ -6,7 +6,7 @@ You can access KMS with a syntax similar to `os.Getenv`
 [![Latest Version](https://img.shields.io/github/v/tag/sue445/gcp-kmsenv)](https://github.com/sue445/gcp-kmsenv/tags)
 [![test](https://github.com/sue445/gcp-kmsenv/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/gcp-kmsenv/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/sue445/gcp-kmsenv/badge.svg)](https://coveralls.io/github/sue445/gcp-kmsenv)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1493a487051cc9c65e2e/maintainability)](https://codeclimate.com/github/sue445/gcp-kmsenv/maintainability)
+[![Maintainability](https://qlty.sh/gh/sue445/projects/gcp-kmsenv/maintainability.svg)](https://qlty.sh/gh/sue445/projects/gcp-kmsenv)
 [![GoDoc](https://godoc.org/github.com/sue445/gcp-kmsenv?status.svg)](https://godoc.org/github.com/sue445/gcp-kmsenv)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sue445/gcp-kmsenv)](https://goreportcard.com/report/github.com/sue445/gcp-kmsenv)
 
