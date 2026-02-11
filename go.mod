@@ -11,7 +11,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.17.0
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/oauth2 v0.35.0
-	google.golang.org/api v0.264.0
+	google.golang.org/api v0.265.0
 )
 
 require (
