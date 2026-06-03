@@ -116,6 +116,7 @@ jobs:
       - uses: golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee # v1.0.4
         with:
           go-version-file: "go.mod"
+          go-version-input: ""
 
       - name: Slack Notification (not success)
         uses: act10ns/slack@d96404edccc6d6467fc7f8134a420c851b1e9054 # v2.2.0
