@@ -114,7 +114,7 @@ jobs:
 
     steps:
       # FIXME: Workaround for error during Go 1.25.11 downloading
-      - uses: golang/govulncheck-action@31f7c5463448f83528bd771c2d978d940080c9fd
+      - uses: golang/govulncheck-action@3fa7bd9cee2cfdf3499a8803b226e43de7b7cdb4
         with:
           go-version-file: "go.mod"
           go-version-input: ""
