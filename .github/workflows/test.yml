@@ -135,7 +135,7 @@ jobs:
       - lint
       - govulncheck
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
 
     steps:
       - name: check dependent jobs
