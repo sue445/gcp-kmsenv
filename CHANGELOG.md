@@ -1,5 +1,12 @@
 ## Unreleased
-[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.11...master)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.12...master)
+
+## [v0.2.12](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.12)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.11...v0.2.12)
+
+* [GHSA-hrxh-6v49-42gf] Bump google.golang.org/grpc from 1.82.0 to 1.82.1
+  * https://github.com/sue445/gcp-kmsenv/pull/530
+* Upgrade dependencies
 
 ## [v0.2.11](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.11)
 [full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.10...v0.2.11)
