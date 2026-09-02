@@ -1,5 +1,12 @@
 ## Unreleased
-[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.13...master)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.14...master)
+
+## [v0.2.14](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.14)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.13...v0.2.14)
+
+* [CVE-2026-84304] Bump google.golang.org/grpc from 1.83.0 to 1.83.1
+  * https://github.com/sue445/gcp-kmsenv/pull/548
+* Upgrade dependencies
 
 ## [v0.2.13](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.13)
 [full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.12...v0.2.13)
