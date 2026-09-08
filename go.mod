@@ -1,6 +1,6 @@
 module github.com/sue445/gcp-kmsenv
 
-go 1.25.13
+go 1.26.0
 
 require (
 	cloud.google.com/go/kms v1.33.0
@@ -8,7 +8,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/googleapis/gax-go/v2 v2.24.0
 	github.com/stretchr/testify v1.12.1
-	golang.org/x/oauth2 v0.36.0
+	golang.org/x/oauth2 v0.37.0
 	google.golang.org/api v0.296.0
 )
 
