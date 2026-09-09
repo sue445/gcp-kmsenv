@@ -1,5 +1,12 @@
 ## Unreleased
-[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.14...master)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.15...master)
+
+## [v0.2.15](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.15)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.14...v0.2.15)
+
+* Bump golang.org/x/oauth2 from 0.36.0 to 0.37.0 (Requires Go 1.26.6+)
+  * https://github.com/sue445/gcp-kmsenv/pull/552
+* Upgrade dependencies
 
 ## [v0.2.14](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.14)
 [full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.13...v0.2.14)
