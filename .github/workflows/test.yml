@@ -30,7 +30,7 @@ jobs:
 
       matrix:
         golang:
-          - "1.26.6"
+          - "1.26.9"
           - "1.27"
 
     steps:
