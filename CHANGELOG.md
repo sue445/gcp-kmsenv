@@ -1,5 +1,11 @@
 ## Unreleased
-[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.15...master)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.16...master)
+
+## [v0.2.15](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.16)
+[full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.15...v0.2.16)
+
+* [CVE-2026-78663] Requires Go 1.26.9 and update dependencies
+  * https://github.com/sue445/gcp-kmsenv/pull/565
 
 ## [v0.2.15](https://github.com/sue445/gcp-kmsenv/releases/tag/v0.2.15)
 [full changelog](http://github.com/sue445/gcp-kmsenv/compare/v0.2.14...v0.2.15)
